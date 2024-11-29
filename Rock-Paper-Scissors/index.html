@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+
+  <!-- <label class="switch"><input type="checkbox"><span class="slider round"></span></label>  -->
+   <!-- Will be adding a mode/theme change later on -->
+
+  <h1 style="text-align: center; margin-top: 50px;">Rock Paper Scissors </h1>
+  
+
+  <div class="btnContaainer">
+    <button class="gameBtn rockBtn" onclick="pickMove('Rock');"><img src="Images/Rock.png" alt="Rock" class="gameImg"></button>
+    <button class="gameBtn paperBtn" onclick="pickMove('Paper');"><img src="Images/Paper.png" alt="Paper" class="gameImg"></button>
+    <button class="gameBtn scissorsBtn" onclick="pickMove('Scissors');"><img src="Images/Scissors.png" alt="Scissors" class="gameImg"></button>
+  </div>
+
+  <div>
+    <p class="gameScore"></p>
+    <p class="gameMoves"></p>
+    <p class="gameResult"></p>
+  </div>
+
+  <div>
+    <button class="resetBtn">Reset Game</button>
+    <button class="autoPlayBtn" onclick="autoPlay();">Auto Play</button>
+    <p class="confirmation"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

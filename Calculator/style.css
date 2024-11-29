@@ -1,0 +1,98 @@
+body{
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.container{
+  border: 3px ridge gray;
+  padding: 0 15px;
+  margin-top: 5em;
+}
+
+.displayCal{
+  color: white;
+  margin-top: 50px;
+  font-size: 45px;
+  margin-bottom: 5px;
+  border: 1px solid white;
+  width: 87%;
+  height: 1.5em;
+  padding: 8px 20px 0;
+}
+
+button{
+  background-color: rgb(51, 51, 51);
+  height: 70px;
+  width: 70px;
+  border: none;
+  color: white;
+  border-radius: 100px;
+  margin: 3px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+p button:nth-child(4){
+  background-color: rgb(254, 160, 10);
+}
+
+.toggle{
+
+  p button:nth-child(4){
+    background-color: rgb(51, 51, 51);
+    color: rgb(76, 203, 76);
+
+  }
+  #allClear{
+    background-color: rgb(35, 160, 35);
+  }
+
+  .red{
+    color: rgb(242, 89, 89);
+  }
+  
+  
+}
+
+.tooltip-button {
+  position: relative;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 140px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+  border-radius: 4px;
+  position: absolute;
+  top: 80px; 
+  left: 160%;
+  transform: translateX(-50%);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.tooltip::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+.tooltip-button:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}

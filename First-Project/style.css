@@ -1,0 +1,90 @@
+html {
+    font-size: "Montserrat", sans-serif;
+  }
+
+body{
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* HOME PAGE START */
+/* background image section start */
+.masthead{
+    background-size: cover;
+    min-height: 65vh;
+    background-position-y: 35%;
+}
+/* background image section end */
+
+/* featured speakers section start */
+.speakers-cards{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hover-cards:hover{
+    cursor: pointer;
+    color: #007bff;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+    transform: translate(0, -5px);
+}
+/* featured speakers section end */
+
+/* event in numbers section start */
+.blue-num span{
+    color: #007bff;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.event-pointer{
+    cursor: pointer;
+}
+/* event in numbers section end */
+
+/* countdown section start */
+.id-js{
+    background-color: #AFDBF5;
+}
+
+.count-down:hover{
+    transform: scale(1.1, 1.1);
+}
+/* countdown section end */
+/* HOME PAGE END */
+
+
+/* ABOUT US PAGE START */
+/* about the conference section start */
+#h-size{
+    font-size: 50px;
+    line-height: 55px;
+}
+/* about the conference section end */
+
+/* past event section start */
+.past-event:hover{
+    transform: scale(1.05, 1.05);
+}
+/* past event section end */
+/* ABOUT US PAGE END */
+
+/* SCHEDULE PAGE START */
+.h-size-s{
+    font-size: 50px;
+}
+/* SCHEDULE PAGE END */
+
+/* EVENT SPEAKERS PAGE START */
+.h-size{
+    font-size: 60px;
+}
+
+.para-size{
+    font-size: larger;
+}
+/* EVENT SPEAKERS PAGE END */
