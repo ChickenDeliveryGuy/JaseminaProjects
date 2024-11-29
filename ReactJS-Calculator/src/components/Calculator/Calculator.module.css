@@ -1,0 +1,18 @@
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+.buttons button{
+  border: 1px solid rgb(63, 41, 41);
+}
+.result{
+  font-size: 3em;
+  max-width: 100%;
+}
+
+.calculator{
+  font-size: 3em;
+  max-width: 100%;
+  padding: 1em;
+}

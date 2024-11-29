@@ -1,0 +1,73 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.drillingProps {
+  background-color: aquamarine;
+  padding: 3em;
+}
+.drillingProps div {
+  background-color: rgb(172, 243, 219);
+  padding: 3em;
+  color: black;
+}
+.drillingProps div div {
+  background-color: rgb(204, 247, 233);
+  padding: 3em;
+  color: black;
+
+}
+
+.liftingState {
+  background-color: rgb(243, 216, 130);
+  padding: 3em;
+}
+.liftingState div {
+  background-color: rgb(235, 217, 158);
+  padding: 3em;
+  color: black;
+}
+.liftingState div div {
+  background-color: rgb(243, 237, 221);
+  padding: 3em;
+  color: black;
+
+}
